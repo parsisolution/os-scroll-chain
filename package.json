@@ -1,0 +1,49 @@
+{
+  "name": "os-scroll-chain",
+  "version": "1.0.0",
+  "description": "OverlayScrollbars Extension to prevent scroll chaining",
+  "main": "dist/os-scroll-chain.min.js",
+  "scripts": {
+    "dev": "cross-env-shell \"rollup -c rollup.config.js\"",
+    "build": "cross-env NODE_ENV=production npm run dev",
+    "watch": "cross-env NODE_ENV=development npm run dev -- --watch",
+    "release": "npm run build && standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parsisolution/os-scroll-chain.git"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "keywords": [
+    "OverlayScrollbars",
+    "Extension",
+    "Prevent",
+    "Scroll-chain",
+    "Scroll chaining"
+  ],
+  "author": "Hamed Ehtesham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parsisolution/os-scroll-chain/issues"
+  },
+  "homepage": "https://github.com/parsisolution/os-scroll-chain#readme",
+  "peerDependencies": {
+    "overlayscrollbars": "^1.5.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "3",
+    "rollup-plugin-license": "^0.7.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "standard-version": "^4.4.0"
+  }
+}
