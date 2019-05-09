@@ -117,7 +117,7 @@ OverlayScrollbars.extension('scroll-chain', function (defaultOptions, framework,
         }
         if (preventHorizontal && xSignificant) {
             let xScrollPos = $viewport.scrollLeft() + 0.5;
-            if ((xDiff > 0 && xScrollPos >= osInstance.scroll().max.y) ||
+            if ((xDiff > 0 && xScrollPos >= osInstance.scroll().max.x) ||
                 (xDiff < 0 && xScrollPos <= 1)) {
                 if (firstTime) {
                     parentScroll = true;
