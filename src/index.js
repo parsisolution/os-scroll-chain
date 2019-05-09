@@ -36,7 +36,7 @@ OverlayScrollbars.extension('scroll-chain', function (defaultOptions, framework,
                 const delta = Math.min(1, Math.max(-1, (-event.wheelDelta || event.deltaY || event.detail)));
                 let xScrollPos = $viewport.scrollLeft() + 0.5;
                 // only trap events once we've scrolled to the end or beginning
-                if ((delta > 0 && xScrollPos >= osInstance.scroll().x.max) ||
+                if ((delta > 0 && xScrollPos >= osInstance.scroll().max.x) ||
                     (delta < 0 && xScrollPos <= 1)) {
 
                     compatibility.prvD(event);
@@ -49,7 +49,7 @@ OverlayScrollbars.extension('scroll-chain', function (defaultOptions, framework,
             const delta = Math.min(1, Math.max(-1, (-event.wheelDelta || event.deltaY || event.detail)));
             let yScrollPos = $viewport.scrollTop() + 0.5;
             // only trap events once we've scrolled to the end or beginning
-            if ((delta > 0 && yScrollPos >= osInstance.scroll().y.max) ||
+            if ((delta > 0 && yScrollPos >= osInstance.scroll().max.y) ||
                 (delta < 0 && yScrollPos <= 1)) {
 
                 compatibility.prvD(event);
@@ -106,7 +106,7 @@ OverlayScrollbars.extension('scroll-chain', function (defaultOptions, framework,
 
         if (preventVertical && ySignificant) {
             let yScrollPos = $viewport.scrollTop() + 0.5;
-            if ((yDiff > 0 && yScrollPos >= osInstance.scroll().y.max) ||
+            if ((yDiff > 0 && yScrollPos >= osInstance.scroll().max.y) ||
                 (yDiff < 0 && yScrollPos <= 1)) {
                 if (firstTime) {
                     parentScroll = true;
@@ -117,7 +117,7 @@ OverlayScrollbars.extension('scroll-chain', function (defaultOptions, framework,
         }
         if (preventHorizontal && xSignificant) {
             let xScrollPos = $viewport.scrollLeft() + 0.5;
-            if ((xDiff > 0 && xScrollPos >= osInstance.scroll().x.max) ||
+            if ((xDiff > 0 && xScrollPos >= osInstance.scroll().max.y) ||
                 (xDiff < 0 && xScrollPos <= 1)) {
                 if (firstTime) {
                     parentScroll = true;
