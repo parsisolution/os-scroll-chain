@@ -15,7 +15,7 @@ OverlayScrollbars.extension('scroll-chain', function (defaultOptions, framework,
         while (!foundViewport) {
             if (!self) {
                 return false;
-            } else if (self.className.startsWith('os-viewport')) {
+            } else if (self.className && self.className.startsWith('os-viewport')) {
                 foundViewport = true;
                 if (self !== instanceElements.viewport)
                     return false;
