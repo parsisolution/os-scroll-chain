@@ -32,7 +32,7 @@ Include the script file from node_modules directory:
 Or you can use CDN:
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/os-scroll-chain@1/dist/os-scroll-chain.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/os-scroll-chain@2/dist/os-scroll-chain.min.js"></script>
 ```
 
 ## Usage
@@ -47,10 +47,10 @@ instance.addExt('scroll-chain', {vertical: true, horizontal: false});
 
 
 ### Options
-Option | Type | Default Value
------------- | ------------- | -------------
-vertical | Boolean | true
-horizontal | Boolean | true
+| Option     | Type    | Default Value |
+|------------|---------|---------------|
+| vertical   | Boolean | true          |
+| horizontal | Boolean | true          |
 
 If you have discovered a 🐜 or have a feature suggestion, feel free to create an [issue](https://github.com/parsisolution/os-scroll-chain/issues) on Github.
 
