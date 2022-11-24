@@ -1,6 +1,12 @@
 # os-scroll-chain
 OverlayScrollbars Extension to prevent scroll chaining
 
+[![](https://img.shields.io/github/package-json/v/parsisolution/os-scroll-chain?style=flat-square)](https://github.com/parsisolution/os-scroll-chain)
+[![](https://img.shields.io/npm/l/pretty-checkbox.svg?style=flat-square&colorB=b8416b)](https://github.com/parsisolution/os-scroll-chain/blob/master/LICENSE)
+[![](https://img.shields.io/npm/dt/os-scroll-chain.svg?style=flat-square)](https://www.npmjs.com/package/os-scroll-chain)
+[![](https://data.jsdelivr.com/v1/package/npm/os-scroll-chain/badge)](https://www.jsdelivr.com/package/npm/os-scroll-chain)
+[![](https://img.shields.io/bundlephobia/minzip/os-scroll-chain?style=flat-square)](https://www.jsdelivr.com/package/npm/os-scroll-chain)
+
 ## Installation
 
 ```sh
@@ -32,7 +38,7 @@ Include the script file from node_modules directory:
 Or you can use CDN:
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/os-scroll-chain@2/dist/os-scroll-chain.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/os-scroll-chain@2"></script>
 ```
 
 ## Usage
