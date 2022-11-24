@@ -1,6 +1,6 @@
 {
   "name": "os-scroll-chain",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "OverlayScrollbars Extension to prevent scroll chaining",
   "main": "dist/os-scroll-chain.min.js",
   "scripts": {

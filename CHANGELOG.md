@@ -1,6 +1,13 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [2.0.2](https://github.com/parsisolution/os-scroll-chain/compare/v2.0.1...v2.0.2) (2022-11-24)
+
+
+### Bug Fixes
+
+* minor readme improvements and upgrade dependencies ([407d5fa](https://github.com/parsisolution/os-scroll-chain/commit/407d5fad948b7d6c610010444fd0b7cd8adf769f))
 
 <a name="2.0.1"></a>
 ## [2.0.1](https://github.com/parsisolution/os-scroll-chain/compare/v2.0.0...v2.0.1) (2022-11-24)
